@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* color-palette 
+red: #BE4141
+
+gold: #F5B453
+
+green: #00DD01
+*/
+
+
+/* utils */
+.margin-t-b-5 {
+    margin: 5px 0;
+}
+
+.large-container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.small-container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.font11 {
+    font-size: 11px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-white {
+    color: white;
+}
+
+.bg-gold {
+    background-color: #F5B453;
+}
+
+.bg-red {
+    background-color: #BE4141;
+}
+
+.bg-green {
+    background-color: #00DD01;
+}
+
+.margin-b30 {
+    margin-bottom: 30px;
+}
+
+/* background */
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+
+
+/* box */
+
+.box {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    width: 900px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* logo */
+.logo-image {
+    text-align: center;
+
+}
+
+.logo {
+    height: 75px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+/* header */
+
+
+
+.title {
+    color: #00DD01;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+/* navbar */
+.nav-bar {
+    background-color: #00DD01;
+    height: 30px;
+
+}
+
+button {
+    margin: 6px 3px;
+    padding: 1px;
+    font-size: 10px;
+}
+
+/* menu */
+
+/* first-research */
+.fa-sharp {
+    font-size: 10px;
+}
+
+.monopattini {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.first-charge-bar {
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* second-research */
+
+.second-charge-bar {
+    height: 20px;
+    width: 400px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* third-research */
+
+.third-charge-bar {
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    display: inline-block;
+}
